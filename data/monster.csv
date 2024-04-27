@@ -1,2 +1,2 @@
-id,type,atk_power,def_power,hp
-0,Dokumon Api,196,165,135
+id;type;atk_power;def_power;hp
+0;Dokumon Api;196;165;135
