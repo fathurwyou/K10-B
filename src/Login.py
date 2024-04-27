@@ -6,7 +6,7 @@ def get_user(data: str) -> List[str]:
     return splitter(data)
 
 
-def verification(user, password) -> bool:
+def verification(user: str, password: str) -> bool:
     user_data: TextIO = open('./data/user.csv', 'r')
     for data in user_data.readlines():
         row: List[str] = get_user(data)
